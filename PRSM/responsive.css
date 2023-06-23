@@ -1,0 +1,180 @@
+@media screen and (max-width: 1200px) {
+  .container-1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-1 .home-text {
+    width: 70vw;
+    margin-top: 100px;
+  }
+
+  .home-image img {
+    width: 70vw;
+  }
+}
+
+@media screen and (max-width: 996px) {
+  .container-8 {
+    flex-direction: column;
+  }
+
+  .date {
+    margin-top: 50px;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .navigation {
+    margin-left: -25px;
+    margin-right: -25px;
+  }
+
+  .container-1 {
+    padding-bottom: 100px;
+    margin-right: -25px;
+  }
+
+  .container-3 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    gap: 5vw;
+  }
+
+  .container-2 {
+    margin-top: 70px;
+    padding-left: 50px;
+  }
+
+  .container-4 {
+    margin-top: 70px;
+  }
+
+  .image-1 img {
+    width: 60vw;
+  }
+
+  .c3-img2 img {
+    margin: unset;
+    width: 80vw;
+  }
+
+  .product-image img {
+    width: 42vw;
+  }
+
+  .product-items {
+    gap: 4vw;
+  }
+
+  .container-6 {
+    margin-left: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .buy-product-img img {
+    width: 75vw;
+  }
+
+  .buy-product-container {
+    margin-top: 70px;
+  }
+
+  .container-7 {
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+
+  .container-8 {
+    margin-left: -25px;
+    margin-right: -25px;
+  }
+
+  .selected-product {
+    font-size: 50px;
+  }
+
+  .small-container,
+  .ohm-studio-summary,
+  .text-2 {
+    font-size: 30px;
+  }
+
+  .short-text {
+    margin: 30px 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navigation {
+    flex-direction: column;
+  }
+
+  .container-4 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ohm-studio-summary {
+    margin-bottom: 40px;
+  }
+
+  .all-champs-img {
+    width: 70vw;
+    display: block;
+    margin: auto;
+  }
+
+  .name {
+    text-align: center;
+  }
+
+  .working-brothers {
+    margin-top: 40px;
+  }
+
+  .planing-img {
+    margin-top: 40px;
+  }
+
+  .planing-img img {
+    width: 60vw;
+    display: block;
+    margin: auto;
+  }
+
+  .product-image img {
+    width: 70vw;
+  }
+
+  .container-7 {
+    flex-wrap: wrap;
+  }
+
+  .image_text {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .rectangle-3 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .short-text {
+    flex-wrap: wrap;
+  }
+}
